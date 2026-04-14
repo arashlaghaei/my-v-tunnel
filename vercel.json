@@ -2,8 +2,12 @@
   "version": 2,
   "rewrites": [
     {
+      "source": "/arash-tunnel",
+      "destination": "http://164.92.213.225:8080/arash-tunnel"
+    },
+    {
       "source": "/(.*)",
-      "destination": "http://188.166.133.17:8080/$1"
+      "destination": "/index.html"
     }
   ]
 }
