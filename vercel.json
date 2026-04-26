@@ -1,13 +1,8 @@
 {
   "version": 2,
+  "name": "vercel-xhttp-relay",
   "rewrites": [
-    {
-      "source": "/arash-tunnel",
-      "destination": "http://164.92.213.225:8080/arash-tunnel"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "trailingSlash": false
 }
