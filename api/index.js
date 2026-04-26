@@ -1,6 +1,6 @@
 export const config = { runtime: "edge" };
 
-const TARGET_BASE = "http://origin.gamerhome.ir:2096";
+const TARGET_BASE = "http://origin.gamerhome.ir:50010";
 
 const STRIP_HEADERS = new Set([
   "host",
